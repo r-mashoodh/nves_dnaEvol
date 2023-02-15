@@ -1,0 +1,134 @@
+﻿contig,win_start,win_stop,Fst_ratio,feat_start,feat_stop,feature,gene_name,gene_type
+NW_017099933.1,260000,260500,19.03451409,259537,260037,5_prime_UTR,LOC108566116;trimeric intracellular cation channel type B-A,Cation channel
+NW_017099987.1,363000,363500,8.262733445,363425,363925,5_prime_UTR,LOC108566548;dolichol-phosphate mannosyltransferase subunit 3,Glycosylation pathway / ER related
+NW_017099987.1,341250,341750,3.975085152,341472,341972,5_prime_UTR,LOC108566571;protein ABHD11,Hydrolase
+NW_017100110.1,558000,558500,9.90291513,557884,558384,5_prime_UTR,LOC108568437;endothelin-converting enzyme 1-like,mitogenic peptide
+NW_017099328.1,22250,22750,5.656533662,22138,22638,5_prime_UTR,LOC108564352;cAMP-regulated phosphoprotein 21 isoform X1,Neuro related
+NW_017097135.1,203000,203500,7.40530336,202715,203215,5_prime_UTR,LOC108559055;globin-like,Oxygen sensing & transport
+NW_017095532.1,14500,15000,9.96702018,14122,14622,5_prime_UTR,LOC108569044;protein-S-isoprenylcysteine O-methyltransferase,Protein methyltransferase
+NW_017097373.1,14000,14500,5.085873474,13661,14161,5_prime_UTR,LOC108559925;50S ribosomal protein L27,Ribosomal protein
+NW_017096643.1,240750,241250,4.372728608,241189,241689,5_prime_UTR,LOC108557708;60S ribosomal protein L35,Ribosomal protein
+NW_017100110.1,719500,720000,4.584514409,719154,719654,5_prime_UTR,LOC108568396;uncharacterized protein LOC108568396,Uncharacterised
+NW_017100110.1,719500,720000,4.584514409,719088,719588,5_prime_UTR,LOC108568453;uncharacterized protein LOC108568453,Uncharacterised
+NW_017100099.1,140250,140750,6.046036434,121403,236897,gene,LOC108567900;microtubule-actin cross-linking factor 1 isoform X1,Actin related
+NW_017097135.1,126500,127000,4.101742642,126213,128110,gene,LOC108559087;actin-related protein 3,Actin related
+NW_017100106.1,462500,463000,8.377063788,462458,464698,gene,LOC108568258;WD repeat and FYVE domain-containing protein 2,Adiposyte & insulin signalling
+NW_017099987.1,323000,323500,12.3822458,322068,324685,gene,LOC108566561;dipeptidyl peptidase 3,Aminopeptidase
+NW_017098530.1,51750,52250,8.37530699,50086,64546,gene,LOC108562668;baculoviral IAP repeat-containing protein 6 isoform X1,Anti-apoptotic ubiquitin ligase
+NW_017100099.1,932500,933000,6.687148464,932413,935506,gene,LOC108567949;protein prune homolog 2,"apotosis, cell transformation, and synaptic function"
+NW_017096643.1,240750,241250,4.372728608,239655,241243,gene,LOC108557698;reticulocalbin-2,Calcium binding
+NW_017099933.1,206000,206500,5.060833042,203937,206702,gene,LOC108566132;mitotic spindle assembly checkpoint protein MAD1-like isoform X1,Cell cycle checkpoint related
+NW_017095532.1,12250,12750,14.68144277,11542,13599,gene,LOC108568990;cell division control protein 6 homolog isoform X1,Cell division
+NW_017095703.1,29000,29500,7.872735582,27758,29676,gene,LOC108560640;cytosolic non-specific dipeptidase,Cell growth & proliferation
+NW_017097328.1,77750,78250,20.38206618,74356,82642,gene,LOC108559834;reticulocyte-binding protein 2 homolog a,Cell invasion
+NW_017100101.1,539500,540000,9.001252933,537918,540691,gene,LOC108568007;integrin beta-PS-like,Cell membrane related
+NW_017095532.1,134000,134500,16.82822785,133234,135290,gene,LOC108568979;protein brambleberry-like,Cell nuclei fusion
+NW_017096643.1,33500,34000,36.19338716,24496,40942,gene,LOC108557712;centrosomin isoform X1,Centrosome related
+NW_017097135.1,163250,163750,4.152453608,162338,167453,gene,LOC108559079;structural maintenance of chromosomes protein 1A,Chromosome structure related
+NW_017096643.1,12250,12750,5.354013014,10987,14139,gene,LOC108557690;hydrocephalus-inducing protein-like,Cilliary motility
+NW_017100098.1,636250,636750,3.957643734,634896,641769,gene,LOC108567854;adult-specific cuticular protein ACP-20-like,Cuticle related
+NW_017100108.1,264500,265000,5.794834821,260631,289676,gene,LOC108568350;protein retinal degeneration B isoform X1,Cytokinesis related
+NW_017100080.1,267750,268250,4.758606432,263265,268705,gene,LOC108566856;coiled-coil domain-containing protein 151,Cytoskeleton related
+NW_017095739.1,22750,23250,5.001170297,22246,26907,gene,LOC108561870;ATP-dependent DNA helicase Q5 isoform X1,DNA helicase
+NW_017099328.1,22250,22750,5.656533662,21178,22488,gene,LOC108564353;flap endonuclease 1,DNA replication nuclease
+NW_017100080.1,470500,471000,4.535189184,468372,471868,gene,LOC108566884;DNA replication licensing factor Mcm2,DNA replication related
+NW_017097373.1,5500,6000,4.653823874,3348,6592,gene,LOC108559931;ribonucleoside-diphosphate reductase large subunit-like,DNA synthesis related
+NW_017095739.1,118750,119250,3.857762684,108366,124265,gene,LOC108561668;receptor-type tyrosine-protein phosphatase kappa isoform X1,EGFR signaling pathway
+NW_017099143.1,241250,241750,18.90114993,229376,316498,gene,LOC108564091;low-density lipoprotein receptor-related protein 2 isoform X1,Endocytic receptor neural
+NW_017097135.1,213500,214000,44.98102041,209461,215099,gene,LOC108559083;hornerin-like,Epidermal related
+NW_017100098.1,595250,595750,9.805671186,587035,597074,gene,LOC108567812;hemicentin-1-like,extracellular matrix protein
+NW_017100099.1,495250,495750,6.450220625,475286,535817,gene,LOC108567924;papilin isoform X1,extracellular matrix protein
+NW_017095703.1,53250,53750,14.17621002,50028,58736,gene,LOC108560588;fatty acid synthase,Fatty acid synthesis pathway
+NW_017099933.1,200250,200750,7.210304428,199429,201158,gene,LOC108566123;GRIP and coiled-coil domain-containing protein PFC0235w-like,Golgi membrane protein
+NW_017097993.1,183000,183500,3.941194546,124798,221013,gene,LOC108561500;alpha-1 3-mannosyl-glycoprotein 4-beta-N-acetylglucosaminyltransferase B,Golgi related
+NW_017100108.1,376500,377000,3.738053224,369116,378099,gene,LOC108568353;myosin-IB,Golgi related
+NW_017097793.1,125000,125500,5.606855576,123184,130156,gene,LOC108561005;ATPase family AAA domain-containing protein 2-like isoform X1,Histone binding activator
+NW_017098530.1,40750,41250,5.301857666,39635,42453,gene,LOC108562673;HSPB1-associated protein 1,Histone modifier? Stress?
+NW_017098530.1,34750,35250,9.167458552,33456,39576,gene,LOC108562670;N-acylneuraminate-9-phosphatase,Hydrolase
+NW_017100098.1,987000,987500,4.953895733,986373,988542,gene,LOC108567835;juvenile hormone esterase-like,Hydrolyses JH
+NW_017098440.1,6500,7000,45.58724186,4789,7500,gene,LOC108562466;cactin,Immune system related
+NW_017097373.1,16250,16750,9.383888773,13959,17313,gene,LOC108559929;leukocyte receptor cluster member 8 homolog,Immune system related
+NW_017100080.1,20250,20750,7.461767419,16127,20853,gene,LOC108566912;cytochrome P450 9e2-like isoform X1,Insect detoxification
+NW_017098440.1,20250,20750,5.778691296,17974,20892,gene,LOC108562469;proton-coupled folate transporter-like,Iron metabolism
+NW_017097328.1,38500,39000,15.33644725,38390,44698,gene,LOC108559841;tyrosine-protein kinase PR2 isoform X1,kinase
+NW_017097135.1,153500,154000,7.285986393,152764,154676,gene,LOC108559088;glycerol kinase,kinase: glycerol uptake
+NW_017097793.1,164000,164500,8.043481618,158782,236305,gene,LOC108561012;diacylglycerol kinase 1 isoform X1,Lipid kinase immune/insulin/heart
+NW_017100110.1,5500,6000,5.353707828,1159,7542,gene,LOC108568431;transmembrane protein 94 isoform X1,Membrane related
+NW_017098440.1,7250,7750,27.28710403,7482,13900,gene,LOC108562470;mitochondrial sodium/hydrogen exchanger 9B2-like,Membrane transport
+NW_017100080.1,331750,332250,12.72490702,332074,332845,gene,LOC108566875;iron-sulfur cluster assembly 1 homolog,Mitochondrial 
+NW_017095739.1,63000,63500,9.635538323,61329,65048,gene,LOC108561778;alanine--tRNA ligase,Mitochondrial 
+NW_017100110.1,188750,189250,4.272330348,188386,190240,gene,LOC108568428;mitochondrial 2-oxoglutarate/malate carrier protein,Mitochondrial 
+NW_017097993.1,386250,386750,4.080335286,384698,386519,gene,LOC108561483;probable medium-chain specific acyl-CoA dehydrogenase,Mitochondrial dehydrogenase
+NW_017099933.1,117500,118000,4.056451356,115611,119400,gene,LOC108566145;ankyrin repeat domain-containing protein 13C,Molecular chaperone
+NW_017100106.1,405000,405500,4.245610705,402992,408366,gene,LOC108568308;sodium-coupled monocarboxylate transporter 1-like,Molecular transporter
+NW_017099143.1,219250,219750,4.086020001,218728,221969,gene,LOC108564088;cilia- and flagella-associated protein 52,Motility related
+NW_017100106.1,396500,397000,5.603150305,378988,398369,gene,LOC108568288;insulin-like growth factor 2 mRNA-binding protein 1 isoform X1,mRNA binding
+NW_017100108.1,405250,405750,5.07167031,400191,405855,gene,LOC108568341;cleavage and polyadenylation specificity factor subunit 1 isoform X1,mRNA binding
+NW_017097328.1,84250,84750,36.09749192,82739,86020,gene,LOC108559836;vam6/Vps39-like protein isoform X1,Muscle development
+NW_017097993.1,408250,408750,4.884544392,407545,440409,gene,LOC108561484;muscle M-line assembly protein unc-89 isoform X1,Muscle structure related
+NW_017098530.1,12500,13000,5.610253513,11854,16501,gene,LOC108562674;alpha-mannosidase 2,N-glycan pathway
+NW_017100099.1,947000,947500,17.21625316,936735,952722,gene,LOC108567945;LIM and SH3 domain protein F42H10.3,Neural development
+NW_017098530.1,34750,35250,9.167458552,33934,36652,gene,LOC108562669;neurochondrin homolog,Neural/muscle development
+NW_017095703.1,75000,75500,5.290048369,74842,89744,gene,LOC108560703;equilibrative nucleoside transporter 4,Neuro related
+NW_017100101.1,1007500,1008000,3.815112875,965510,1010423,gene,LOC108568037;insulin-like peptide receptor isoform X1,Neuro related
+NW_017100101.1,1007500,1008000,3.815112875,965510,1010423,gene,LOC108568037;insulin-like peptide receptor isoform X2,Neuro related
+NW_017100101.1,1007500,1008000,3.815112875,959142,1013098,gene,LOC108568038;gephyrin,Neuro scaffolding protein
+NW_017100080.1,314250,314750,3.808746829,277680,326080,gene,LOC108566871;neurogenic locus Notch protein isoform X1,Neurogenic receptor
+NW_017100099.1,7000,7500,5.159972608,4559,47457,gene,LOC108567943;orexin receptor type 2-like,Neuropeptide receptor
+NW_017100101.1,580500,581000,5.748364995,574104,582725,gene,LOC108568063;pecanex-like protein 1,Notch related
+NW_017097373.1,26250,26750,4.525501236,18337,28309,gene,LOC108559926;ranBP2-like and GRIP domain-containing protein 4,Nuclear import pathway
+NW_017100104.1,161250,161750,6.497650899,159536,163401,gene,LOC108568200;1-acyl-sn-glycerol-3-phosphate acyltransferase delta-like,Phosphate transferase
+NW_017100110.1,705500,706000,5.483484252,656735,715045,gene,LOC108568465;guanylate cyclase 32E,Plasma membrane related
+NW_017099987.1,207750,208250,5.124402841,85507,209761,gene,LOC108566546;potassium voltage-gated channel subfamily H member 6-like isoform X1,Potassium gate component
+NW_017100101.1,56750,57250,9.750990202,14908,59391,gene,LOC108568066;fibronectin type-III domain-containing protein 3A isoform X1,predicted collagen and glycosaminoglycan synthesis
+NW_017098440.1,86750,87250,12.42662644,83711,92341,gene,LOC108562480;proteasome activator complex subunit 4-like isoform X1,Protein degradation
+NW_017100098.1,623000,623500,6.064395319,622333,628253,gene,LOC108567855;ATP-dependent zinc metalloprotease YME1 homolog isoform X1,Protein degradation
+NW_017099987.1,341250,341750,3.975085152,340778,341835,gene,LOC108566572;transmembrane emp24 domain-containing protein 2,Protein trafficing
+NW_017100098.1,636250,636750,3.957643734,634991,636765,gene,LOC108567851;origin recognition complex subunit 4,Replication related
+NW_017100104.1,64250,64750,5.535808145,63994,65665,gene,LOC108568177;60S ribosomal protein L8,Ribosomal protein
+NW_017098440.1,71000,71500,28.52241804,65350,75757,gene,LOC108562474;ribosome-binding protein 1 isoform X1,Ribosomal related
+NW_017100110.1,558000,558500,9.90291513,555473,558402,gene,LOC108568436;ATP-dependent RNA helicase DDX42,RNA helicase
+NW_017097793.1,148250,148750,24.22038319,144991,154279,gene,LOC108561007;dystrobrevin beta isoform X1,Scaffolding protein
+NW_017098440.1,3750,4250,5.152364843,1391,4417,gene,LOC108562456;NAD-dependent L-serine dehydrogenase,Serine dehydrogenase
+NW_017100108.1,337500,338000,3.933430464,337393,341660,gene,LOC108568324;UDP-glucuronosyltransferase 2B2-like,Steriod pathway
+NW_017100110.1,164000,164500,4.422803974,162058,166077,gene,LOC108568451;sodium-independent sulfate anion transporter,Sulphte transport pathway
+NW_017100098.1,228000,228500,4.191666007,163681,268623,gene,LOC108567884;hemicentin-2-like,Tissue adhesion & cell migration
+NW_017100106.1,471250,471750,76.39395854,471134,474159,gene,LOC108568286;exocyst complex component 8,Trafficing & cell polarity
+NW_017099933.1,284500,285000,39.37418095,282718,286372,gene,LOC108566166;protein suppressor of hairy wing-like isoform X1,Transcription factor
+NW_017095532.1,24250,24750,17.94680256,16470,34298,gene,LOC108569018;uncharacterized protein LOC108569018 isoform X1,Transcription factor
+NW_017097328.1,124750,125250,10.41479615,124634,127249,gene,LOC108559830;zinc finger CCCH domain-containing protein 11A-like isoform X1,Transcription factor
+NW_017100098.1,678500,679000,6.354590182,667965,693361,gene,LOC108567861;homeotic protein distal-less isoform X1,Transcription factor
+NW_017099933.1,250250,250750,5.787321594,244944,255227,gene,LOC108566137;homeobox protein MSX-2-like,Transcription factor
+NW_017098440.1,20250,20750,5.778691296,12103,22728,gene,LOC108562467;zinc finger protein 474-like isoform X1,Transcription factor
+NW_017097993.1,329000,329500,5.264887569,315604,381830,gene,LOC108561497;nuclear hormone receptor FTZ-F1,Transcription factor
+NW_017099143.1,135500,136000,4.271435448,127734,199931,gene,LOC108564096;protein pangolin,Transcription factor
+NW_017100104.1,383500,384000,4.198160185,383251,385508,gene,LOC108568211;zinc finger protein 883,Transcription factor
+NW_017099328.1,19750,20250,4.686589147,19259,21132,gene,LOC108564354;high mobility group protein 20A-like isoform X1,Transcription factor?
+NW_017100110.1,629000,629500,6.311841207,627693,630167,gene,LOC108568447;general transcription factor 3C polypeptide 3,Transcription machinery
+NW_017100104.1,109500,110000,5.745648434,107806,110523,gene,LOC108568194;transcription initiation factor TFIID subunit 5,Transcription machinery
+NW_017100106.1,104000,104500,6.565303329,103022,109222,gene,LOC108568255;phosphatidate cytidylyltransferase,Transferase activity
+NW_017099987.1,350000,350500,5.271015655,347020,360613,gene,LOC108566557;copper-transporting ATPase 1 isoform X1,Translocase
+NW_017095739.1,32250,32750,12.64376426,31277,34480,gene,LOC108561800;eukaryotic translation initiation factor 3 subunit C isoform X1,Trnalation related
+NW_017098440.1,27000,27500,12.61128935,25668,27933,gene,LOC108562471;tubulin alpha-8 chain-like,Tubulin component
+NW_017098440.1,23750,24250,5.674145031,23175,25339,gene,LOC108562472;tubulin alpha-8 chain-like,Tubulin component
+NW_017100080.1,485500,486000,4.251596671,472913,491208,gene,LOC108566876;E3 ubiquitin-protein ligase HERC2 isoform X1,Ubiquitin ligase
+NW_017095703.1,22000,22500,4.079324715,19686,22298,gene,LOC108560612;ubiquitin-conjugating enzyme E2-22 kDa,Ubiquitin ligase
+NW_017100108.1,481750,482250,23.45395469,479918,483659,gene,LOC108568377;major antigen-like,Uncharacterised
+NW_017097135.1,215000,215500,21.77695783,215171,217879,gene,LOC108559080;coiled-coil domain-containing protein 102A isoform X1,Uncharacterised
+NW_017097328.1,73250,73750,18.79097894,68829,73947,gene,LOC108559823;uncharacterized protein LOC108559823,Uncharacterised
+NW_017099933.1,168250,168750,17.02544466,166607,169931,gene,LOC108566152;uncharacterized protein LOC108566152,Uncharacterised
+NW_017100080.1,331750,332250,12.72490702,330327,332077,gene,LOC108566872;uncharacterized protein LOC108566872,Uncharacterised
+NW_017100104.1,51000,51500,12.01405128,49355,51908,gene,LOC108568206;uncharacterized protein LOC108568206,Uncharacterised
+NW_017100108.1,388750,389250,10.69321133,385286,391688,gene,LOC108568354;uncharacterized protein LOC108568354 isoform X1,Uncharacterised
+NW_017097793.1,15500,16000,10.47381525,11233,18011,gene,LOC108561008;protein EFR3 homolog cmp44E isoform X1,Uncharacterised
+NW_017099987.1,363000,363500,8.262733445,360651,363562,gene,LOC108566558;uncharacterized protein LOC108566558 isoform X1,Uncharacterised
+NW_017100098.1,615000,615500,5.812104098,610232,616071,gene,LOC108567882;uncharacterized protein LOC108567882 isoform X1,Uncharacterised
+NW_017100101.1,475500,476000,5.706659543,475350,479560,gene,LOC108568092;uncharacterized protein LOC108568092 isoform X1,Uncharacterised
+NW_017100104.1,140250,140750,5.668307092,140111,150621,gene,LOC108568193;uncharacterized protein LOC108568193,Uncharacterised
+NW_017100099.1,1188000,1188500,5.493979045,1186556,1189765,gene,LOC108567950;uncharacterized protein LOC108567950,Uncharacterised
+NW_017097993.1,387500,388000,4.76950248,386817,388143,gene,LOC108561490;uncharacterized protein C9orf78 isoform X1,Uncharacterised
+NW_017097993.1,246000,246500,4.365101211,236547,273435,gene,LOC108561502;probable 3\\'5\\'-cyclic phosphodiesterase pde-5 isoform X1,Uncharacterised
+NW_017100110.1,216500,217000,4.203983175,215977,219063,gene,LOC108568402;UPF0047 protein YjbQ,Uncharacterised
+NW_017098440.1,31750,32250,4.016702539,28580,36054,gene,LOC108562461;uncharacterized protein LOC108562461,Uncharacterised
+NW_017100108.1,523000,523500,3.915491936,505922,536357,gene,LOC108568372;protein stum-like isoform X1,Uncharacterised
+NW_017100101.1,104500,105000,3.810635457,102144,105698,gene,LOC108568106;uncharacterized protein LOC108568106,Uncharacterised
