@@ -1,13 +1,5 @@
 ## piN/piS
 
-setwd("/mnt/beegfs/home5/zoology/rm786/beetle_PoolSeq/intrapop/tef_out")
-
-# Within species you can compute the Pn/Ps (relative abundance of non-synonymous and 
-#                                           synonymous polymorphisms) that measure the 
-# direct effect of natural selection removing slighlty deleterious non-synonymous variants.
-# 
-# http://www.plospathogens.org/article/info%3Adoi%2F10.1371%2Fjournal.ppat.1002893
-
 # col1: gene name
 # col2: non-synonymous length
 # col3: synonymous length
@@ -82,85 +74,6 @@ pNS.fet <- pNS %>%
 
 kruskal.test(pNS ~ expEvo, data = subset(pNS.fet, Block == "1"))
 kruskal.test(pNS ~ expEvo, data = subset(pNS.fet, Block == "2"))
-
-## do FC harbour more variants at diverged genes?
-
-library(boot)
-
-# Set the number of bootstrap iterations
-num_iterations <- 1000
-sample_size <- 600
-
-# Clean up df for bootstrapping
-pNS.clean <- pNS %>% drop_na(pNS) %>% filter(!is.infinite(pNS))
-
-# Get unique populations
-populations <- unique(pNS.clean$pop)
-
-# Create an empty data frame to store the bootstrap medians
-bootstrap_medians_df <- data.frame(matrix(NA, nrow = num_iterations, ncol = length(populations)))
-colnames(bootstrap_medians_df) <- populations
-
-# Perform bootstrap resampling and calculate the median for each population
-for (i in 1:num_iterations) {
-  bootstrap_sample <- lapply(populations, function(pop) {
-    subset_data <- subset(pNS.clean, pop == pop)$pNS
-    sample_data <- sample(subset_data, replace = F, size = sample_size)
-    median(sample_data)
-  })
-  bootstrap_medians_df[i, ] <- unlist(bootstrap_sample)
-}
-
-# Print the results
-print(bootstrap_medians_df)
-
-
-## get the values for selected genes
-pop_medians <- pNS %>% 
-  filter(!is.infinite(pNS)) %>% 
-  mutate(fet = ifelse(gene %in% xl$LOCid, 1, 0)) %>% 
-  filter(fet == 1) %>% 
-  group_by(pop, expEvo, Block) %>% 
-  summarise(n=n(),
-            median_pNS = median(pNS,na.rm=T)) %>% 
-  pull(median_pNS)
-
-pop_medians
-# [1] 0.02437635 0.02294070 0.00000000 0.00000000
-
-## FC variation is greater than average sampling of genes?
-length(which(bootstrap_medians_df$F1 > pop_medians[1])) / 1001 #0.01
-length(which(bootstrap_medians_df$F2 > pop_medians[2])) / 1001 #0.0006
-
-## NC is less than average sampling of genes?
-length(which(bootstrap_medians_df$N1 < pop_medians[3])) / 1001 #0.00
-length(which(bootstrap_medians_df$N2 < pop_medians[4])) / 1001 #0.00
-
-## So what this suggests is that FC maintained more variation on average on those genes that were
-## "selected", and likewise, NC reduced variation more though to different degrees between the NC replicates
-## might reflect the slight difference in the strength of response in NC1 that appears throughout the measures
-
-FC1 <- ggplot(bootstrap_medians_df, aes(x=F1)) +
-  geom_histogram() +
-  geom_vline(xintercept=pop_medians[1], color="red") +
-  ggtitle("F1, p=0.145")
-
-FC2 <- ggplot(bootstrap_medians_df, aes(x=F2)) +
-  geom_histogram() +
-  geom_vline(xintercept=pop_medians[2], color="red") +
-  ggtitle("F2, p=0.211")
-
-NC1 <- ggplot(bootstrap_medians_df, aes(x=N1)) +
-  geom_histogram() +
-  geom_vline(xintercept=pop_medians[3], color="red") +
-  ggtitle("N1, p=0.0")
-
-NC2 <- ggplot(bootstrap_medians_df, aes(x=N2)) +
-  geom_histogram() +
-  geom_vline(xintercept=pop_medians[4], color="red") +
-  ggtitle("N2, p=0.0")
-
-(FC1 / FC2 | NC1 / NC2)
 
 ### calculate bootstrap medians for diverged and not diverged genes
 
