@@ -1,5 +1,7 @@
 #!/bin/bash
 
+### Using Popoolation to extract measures of genetic diversity
+
 # create pileup
 samtools mpileup -B ../map/F1.qf.rmd.sort.bam > F1.pileup
 samtools mpileup -B ../map/N1.qf.rmd.sort.bam > N1.pileup
