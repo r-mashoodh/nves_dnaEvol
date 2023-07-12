@@ -151,15 +151,13 @@ write_tsv(tableS7, "TableS7_SNP_freq.tsv")
 
 
 
-### How many SNPs look like they get near genes?
-## this gets the number of SNPs that occur within 1000bp of either end of the gene
+## What is within 500bp of SNPs?
 bp_hits <- data.table::fread("Evol.SigSNPs_Baypass_Intersect.bed") %>%
   filter(V11=="gene") %>%
   select(V1, V2) %>%
   distinct()
 
 nrow(bp_hits) #only 1644 SNPs are within 500bp of genes
-
 nrow(sigSNPs) - nrow(bp_hits) #1442 SNPs near nothing
 
 ### What genes are near these SNPs?
