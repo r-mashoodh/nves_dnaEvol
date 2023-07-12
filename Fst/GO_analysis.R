@@ -7,8 +7,9 @@ xl <- readxl::read_xlsx("fet_genes.xlsx")
 
 ## get genes of interest in a list
 fet_genes <- unique(xl$LOCid)
+
 ## Go term file
-## new using orthofinder
+## new GO annotation, supplemented by orthofinder
 geneID2GOdm <- readMappings("fly_orthoF_merged.go.tab") # mf_crowdGO.tab or cc_crowdGO.tab; remake files above
 
 geneUniversedm <- names(geneID2GOdm)
@@ -40,6 +41,8 @@ write.csv(allResBP, "GO_terms.csv")
 
 ## go terms of interest
 row_numbers <- c(1, 12, 28, 31, 36, 47, 51, 84, 91, 131)
+
+library(tidyverse)
 
 allResBP %>% 
   #rownames_to_column(var="rowname") %>% 
