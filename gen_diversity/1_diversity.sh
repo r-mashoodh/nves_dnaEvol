@@ -25,7 +25,7 @@ perl ../software/popoolation_1.2.2/basic-pipeline/filter-pileup-by-gtf.pl --inpu
 perl ../software/popoolation_1.2.2/basic-pipeline/filter-pileup-by-gtf.pl --input N2.idf.pileup --gtf n_vespilloides.filteredRepeats.gff --output N2.idf.tef.pileup
 
 ##CALCULATING TAJIMA’S / PI DIVERSITY
-## –min-coverage –max-coverage: for subsampled files not important; should contain target coverage, i.e.: 10
+## –min-coverage –max-coverage
 ## –min-covered-fraction minimum percentage of sites having sufficient coverage in the given window
 ## –min-count minimum occurrence of allele for calling a SNP
 ## –measure which population genetics measure should be computed (pi/theta/D)
