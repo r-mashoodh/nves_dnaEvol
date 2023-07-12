@@ -92,11 +92,7 @@ ci_vals <- pNS.clean %>%
 
 ci_vals$expEvo <- paste(substr(ci_vals$pop, 1, 1), "C", sep="")
 
-ggplot(ci_vals, aes(x=pop, y=median, color=as.factor(fet))) +
-  geom_point(geom_jitter=0.8) +
-  geom_linerange(aes(ymin = lower_ci, ymax= upper_ci)) +
-  theme_classic()
-
+## plot    
 ggplot(ci_vals, aes(x=pop, y=median, color=expEvo)) +
   geom_point() +
   geom_linerange(aes(ymin = lower_ci, ymax= upper_ci)) +
