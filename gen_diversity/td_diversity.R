@@ -74,7 +74,7 @@ td.wide %>%
   select(contig, start, stop, F1, F2, N1, N2, F1xF2, N1xN2) %>%
   write.table("td_scores.bed", quote=F, row.names=F, col.names=F, sep="\t")
 
-## create a file that has every gene +/- 10kb of Td
+## create a file that has every gene +/- 5kb of Td
 system("bedtools window -a genes.bed -b td_scores.bed -w 5000 > gene_td.txt")
 
 gene_td <- data.table::fread("gene_td.txt") %>%
